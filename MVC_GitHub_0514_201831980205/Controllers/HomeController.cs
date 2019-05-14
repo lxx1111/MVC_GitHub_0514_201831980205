@@ -12,6 +12,13 @@ namespace MVC_GitHub_0514_201831980205.Controllers
         {
             return View();
         }
+        public ActionResult MyAction1()
+        {
+            ViewBag.Message = "这是我的第一个MyAction";
+            ViewBag.Xingming = "卢晓霞";
+            ViewBag.Xuehao = "201831980205";
+            return View();
+        }
 
         public ActionResult About()
         {
